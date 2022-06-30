@@ -34,9 +34,10 @@ env:
   TZ: Europe/Kiev
 
 jobs:
-  timeout-minutes: 1200
+  
   build:
     runs-on: ubuntu-20.04
+    timeout-minutes: 1200
 
     steps:
     - name: Checkout
